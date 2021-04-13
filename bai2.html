@@ -16,13 +16,13 @@
             padding: 20px 20px 20px 20px;
         }
 
-        /* .card-deck {
+        .card-deck {
             width: 900px;
-            margin: 20px 20px 20px 20px;
-            padding: 20px 20px 20px 20px;
+            /* margin: 20px 20px 20px 20px;
+            padding: 20px 20px 20px 20px; */
             display: flex;
             float: left;
-        } */
+        }
 
 
 
@@ -46,9 +46,9 @@
         h2 {
             color: black;
             font-family: 'Franklin Gothic Medium';
-            margin-left: 100px;
+            /* margin-left: 100px; */
             writing-mode: vertical-lr;
-            font-size: 27pt;
+            font-size: 15pt;
         }
 
         .carouselslide {
@@ -69,8 +69,38 @@
         .container {
             float: left;
             position: relative;
+            margin-left: 100px;
+        }
+        
+        .container2{
+            float: left;
+            margin-top: 200px;
+            margin-left: 115px;
+            position: relative;
+        }
+        
+        h3{
+            margin-left: 500px;
+            font-family:'Trebuchet MS';
+            font-style: italic;
+            font-size: 30pt;
+            border-style: inset;
         }
 
+        h1{
+            margin-top: -40px;
+            margin-left: 450px;
+            font-size: 80pt;
+            font-style: italic;
+            border-bottom: black solid 5px;
+            width: 400px; 
+            border-style: outset;
+        }
+         .cards{
+             display: flex;
+             padding: 10px 10px 10px 10px;
+         }
+        
         
     </style>
 </head>
@@ -81,9 +111,9 @@
         <div class="btn-group btn-lg " role="group" aria-label="Button group with nested dropdown">
             <button type="button" class="btn btn-dark">Home</button>
             <button type="button" class="btn btn-dark">Game</button>
-            <button type="button" class="btn btn-dark">Champions</button>
+            <button type="button" class="btn btn-dark">Heroes</button>
 
-            <div class="btn-group  " role="group">
+            <div class="btn-group" role="group">
                 <button id="btnGroupDrop1" type="button" class="btn btn-dark btn-lg dropdown-toggle"
                     data-toggle="dropdown" aria-haspopup="true">
                     News
@@ -124,7 +154,66 @@
             </a>
         </div>
     </div>
+    
+    <br>
+    
+    <div class="container2">
+        <h2> - HEROES - </h2>
+        <br>
+        <div class="rainbow">
+            <h3> CHOOSE YOUR </h3>
+            <h1>HERO</h1>
+            <br>
+        </div>
+        <div class="cards">
+        <div class="card" style="width: 300px;">
+            <img class="card-img-top" src="pic8.jpg" height="175px" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+        </div>
+        <div class="card" style="width: 300px;">
+            <img class="card-img-top" src="pic9.jpg" height="175px" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+        </div>
+        <div class="card" style="width: 300px;">
+            <img class="card-img-top" src="pic10.jpg" height="175px" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+        </div>
+        </div>
+        <div class="card" style="width: 300px;">
+            <img class="card-img-top" src="pic11.png" height="175px" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+        </div>
+        <div class="card" style="width: 300px;">
+            <img class="card-img-top" src="pic12.jpg" height="175px" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+        </div>
+        <div class="card" style="width: 300px">
+            <img class="card-img-top" src="pic13.jpg" height="175px" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+        </div>
+    </div>
+          
 
+    </div>
+    
 
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
